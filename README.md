@@ -2,6 +2,7 @@
 
 ## Notice
 FFmpegKit has been officially retired. [Ebola16](https://ebola16.github.io/) has modified it to compile with 16KB page sizes using NDK r28+ for Android.
+This is used in [Automated Contact Photo Sync](https://play.google.com/store/apps/details?id=com.ebola16.automatedcontactphotosync) and was buit via `./android.sh --enable-libwebp --disable-arm-v7a-neon`
 
 See [Saying Goodbye to FFmpegKit @ medium](https://medium.com/@tanersener/saying-goodbye-to-ffmpegkit-33ae939767e1) to learn why we made this decision.
 
